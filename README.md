@@ -1,14 +1,14 @@
 # 🔮 Sistema de Alerta Educacional - Passos Mágicos
 
 ## 📌 Sobre o Projeto
-Este projeto foi desenvolvido como solução para o Datathon da **Associação Passos Mágicos** como requisito do challenge fase5. O objetivo principal é utilizar Ciência de Dados e Machine Learning para prever e identificar precocemente alunos em risco de defasagem escolar, fornecendo à equipe pedagógica uma ferramenta de apoio à decisão para intervenções rápidas e direcionadas.
+Este projeto foi desenvolvido como solução para o TECHCHALLENGE FASE 5 Datathon do Case **Associação Passos Mágicos**. O objetivo principal é utilizar Ciência de Dados e Machine Learning para prever e identificar precocemente alunos em risco de defasagem escolar, fornecendo à equipe pedagógica uma ferramenta de apoio à decisão para intervenções rápidas e direcionadas.
 
 ## 🎯 O Desafio e a Solução Preditiva
-A defasagem escolar é um problema multifatorial. Para enfrentá-lo, desenvolvemos um modelo de classificação utilizando o algoritmo **Random Forest Classifier**.
+A defasagem escolar é um problema multifatorial. Para enfrentá-lo, foi desenvolvido um modelo de classificação utilizando o algoritmo **Random Forest Classifier**.
 
-**Nosso principal *insight* analítico:** Ao treinar o modelo focado nos indicadores acadêmicos e psicopedagógicos (IDA, IEG, IPP, IPV) junto à Fase do aluno, alcançamos um **Recall de ~75%** na identificação de alunos em risco. No entanto, a acurácia geral estabilizou na casa dos 66%-67%. 
+**O principal *insight* analítico:** Ao treinar o modelo focado nos indicadores acadêmicos e psicopedagógicos (IDA, IEG, IPP, IPV) junto à Fase do aluno, foi alcançado um **Recall de ~75%** na identificação de alunos em risco. No entanto, a acurácia geral estabilizou na casa dos 66%-67%. 
 
-Longe de ser uma falha, essa métrica fornece um diagnóstico para o negócio: **notas e indicadores de engajamento sozinhos não são suficientes para explicar 100% da realidade do aluno**. Isso valida analiticamente a necessidade da ONG de manter um olhar humanizado e aponta para o próximo passo de maturidade de dados: a integração de variáveis socioeconômicas (como estrutura familiar e rede de ensino).
+Essa métrica fornece um diagnóstico para o negócio: **notas e indicadores de engajamento sozinhos não são suficientes para explicar 100% da realidade do aluno**. Isso valida analiticamente a necessidade da ONG de manter um olhar humanizado e aponta para o próximo passo de maturidade de dados: a integração de variáveis socioeconômicas (como estrutura familiar e rede de ensino).
 
 ## 📁 Estrutura do Repositório
 Para garantir a reprodutibilidade, o projeto está estruturado da seguinte forma:
